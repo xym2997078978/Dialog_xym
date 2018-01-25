@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+}
+.wrap{
+    width: 350px;
+    height: 240px;
+    background: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.p1{
+    padding: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.spn{
+    float: right;
+    cursor: pointer;
+}
+.p2{
+    padding: 30px;
+    color: red;
+    margin-left: 20px;
+    font-size: 30px;
+}
+button{
+    padding: 8px 15px;
+    margin-right: 40px;
+}
+.success{
+    margin-left: 80px;
+    margin-top: 15px;
+}
